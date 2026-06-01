@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    color: #1a1a1a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.tarjeta-acceso {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 36px 32px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.logo-acceso {
+    display: block;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.logo-acceso img {
+    height: 46px;
+}
+
+.tarjeta-acceso h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.tarjeta-acceso label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+    margin-top: 14px;
+}
+
+.tarjeta-acceso input {
+    width: 100%;
+    padding: 11px 14px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.tarjeta-acceso input:focus {
+    outline: none;
+    border-color: #29a6b7;
+}
+
+.tarjeta-acceso button {
+    width: 100%;
+    margin-top: 24px;
+    background: #29a6b7;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+
+.tarjeta-acceso button:hover {
+    background: #1e8a99;
+}
+
+.boton-bloque {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    background: #29a6b7;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.boton-bloque:hover {
+    background: #1e8a99;
+}
+
+.error {
+    background: #fdecea;
+    color: #c0392b;
+    border: 1px solid #e8502a;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.exito {
+    background: #e6f6f8;
+    color: #1e8a99;
+    border: 1px solid #29a6b7;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.enlace-acceso {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.enlace-acceso a {
+    color: #29a6b7;
+    text-decoration: none;
+}
+
+.enlace-acceso a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .tarjeta-acceso {
+        padding: 24px 20px;
+    }
+}
