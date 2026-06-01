@@ -26,9 +26,11 @@ Al tener VSCode completamente instalado, dentro del apartado de extensiones de V
 
 Para ejecutar la web en local primero tenemos que tener la carpeta con el proyecto, la cual se puede copiar de los archivos adjuntos a la tarea o bien instalarlos desde mi repositorio de GitHub.
 
+Se descarga un archivo zip llamado “calidad_precio-main.zip”, por lo tanto al descomprimirlo entramos a la carpeta y la subcarpeta la renombramos a “calidad_precio”. O bien si no renombramos la carpeta, cuando lo escribamos en el navegador habría que poner el siguiente enlace: [localhost/calidad_precio-main/public](http://localhost/calidad_precio-main/public)
+
 A continuación movemos la carpeta del proyecto llamada `calidad_precio` en la ruta que se genera por defecto al instalar XAMPP, que es: `C:\xampp\htdocs`
 
-Antes de acceder a la web tendremos que insertar los datos en la base de datos de MySQL y para ello primero abrimos la base de datos desde el panel de XAMPP y pulsamos en el botón de **Admin** para acceder a la herramienta de phpMyAdmin. A continuación copiamos de los archivos del proyecto el código SQL que está dentro del archivo llamado `calidad_precio.sql` para crear la base de datos con su contenido.
+Antes de acceder a la web tendremos que insertar los datos en la base de datos de MySQL y para ello primero abrimos la base de datos desde el panel de XAMPP y pulsamos en el botón de **Admin** para acceder a la herramienta de phpMyAdmin. A continuación copiamos de los archivos del proyecto el código SQL que está dentro del archivo llamado `calidad_precio.sql` para crear la base de datos con su contenido. Una vez pegado refrescamos la página y nos mostrará la base de datos creada. Otra forma de hacerlo es ir directamente a la pestaña de importar y seleccionamos el archivo ‘calidad_precio.sql’ y lo importamos.
 
 He de recalcar que si ya se instaló XAMPP anteriormente y en la base de datos se estableció un usuario y contraseña en específico, habría que acceder al archivo `conexion.php` que se sitúa dentro del proyecto y modificar los parámetros de usuario y contraseña con las credenciales de su base de datos.
 
