@@ -2,6 +2,10 @@
 
 Web para recomendar tecnología con relación calidad y precio.
 
+## Acceso Online
+
+[calidad-precio.com](https://calidad-precio.com/)
+
 ## Instalación de programas necesarios
 
 ### 1. XAMPP
